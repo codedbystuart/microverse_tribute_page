@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#image {
+  /* width: auto; */
+  max-width: 800px;
+  /* height: auto; */
+}
+
+@media (min-width: 600px) {
+  #image {
+    width: auto;
+    height: auto;
+  }
+}
+
+#img-div {
+  display: flex;
+  width: 600px;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+#main {
+  /* height: 130vh; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#tribute-info {
+  padding-top: 20px;
+  width: 600px;
+}
+
+#tribute-info ul li {
+  padding: 10px;
+}
