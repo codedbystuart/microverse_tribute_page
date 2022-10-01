@@ -10,6 +10,7 @@
   /* height: auto; */
 }
 
+/* Create media query */
 @media (min-width: 600px) {
   #image {
     width: auto;
