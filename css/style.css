@@ -3,12 +3,14 @@
   padding: 0;
 }
 
+/* Image styling */
 #image {
   /* width: auto; */
   max-width: 800px;
   /* height: auto; */
 }
 
+/* Create media query */
 @media (min-width: 600px) {
   #image {
     width: auto;
